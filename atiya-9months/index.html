@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 9 Months, Atiya ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3, #ffb199);
+      background-size: 400% 400%;
+      animation: gradient 12s ease infinite;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-top: 50px;
+      text-shadow: 0 0 15px #ffdde1, 0 0 25px #ff4d6d;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      margin: 10px 0;
+      text-shadow: 0 0 10px #ffd6e0;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 600px;
+      line-height: 1.6;
+      text-shadow: 0 0 8px #ffcccc;
+    }
+
+    .hearts {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .hearts span {
+      position: absolute;
+      display: block;
+      width: 20px;
+      height: 20px;
+      background: #fff;
+      opacity: 0.6;
+      clip-path: polygon(50% 0%, 61% 22%, 85% 22%, 
+                        68% 39%, 75% 61%, 50% 50%, 
+                        25% 61%, 32% 39%, 15% 22%, 39% 22%);
+      animation: float 10s linear infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(100vh) scale(0); opacity: 1; }
+      100% { transform: translateY(-10vh) scale(1.2); opacity: 0; }
+    }
+
+    .gallery {
+      margin: 40px auto;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #ff4d6d;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 1em;
+      text-shadow: 0 0 10px #ffccd5;
+    }
+  </style>
+</head>
+<body>
+  <div class="hearts">
+    <span style="left: 10%; animation-duration: 8s;"></span>
+    <span style="left: 30%; animation-duration: 12s;"></span>
+    <span style="left: 50%; animation-duration: 10s;"></span>
+    <span style="left: 70%; animation-duration: 14s;"></span>
+    <span style="left: 90%; animation-duration: 9s;"></span>
+  </div>
+
+  <h1>Happy 9 Months, My Eternal Love ❤️</h1>
+  <h2>Atiya 💖 My Teddy Bear, My Babba</h2>
+  <p>
+    9 months ago, my life changed forever when I found you.  
+    Every single day with you has been the most beautiful blessing of my life.  
+    You are my happiness, my safe place, my dream come true.  
+    I can’t wait to celebrate forever with you, my Atiya. 💕  
+  </p>
+
+  <div class="gallery">
+    <!-- Replace with your photos -->
+    <img src="https://i.imgur.com/l2aA5Kq.jpg" alt="Memory 1">
+    <img src="https://i.imgur.com/NbGfK6D.jpg" alt="Memory 2">
+    <img src="https://i.imgur.com/jj7pF0P.jpg" alt="Memory 3">
+  </div>
+
+  <footer>
+    With all my love, forever yours ❤️
+  </footer>
+</body>
+</html>
